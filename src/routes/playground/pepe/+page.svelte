@@ -138,7 +138,7 @@
 		<div class="flex items-center mb-8">
 			<div class="flex grow">
 				{#if tokenImage}
-					<img class="rounded-lg w-10 h-auto" src={tokenImage} alt={tokenName} />
+					<img class="rounded-lg w-10 h-auto grayscale" src={tokenImage} alt={tokenName} />
 				{:else}<p>Image not available</p>
 				{/if}
 				<div class="flex flex-col ml-2">
